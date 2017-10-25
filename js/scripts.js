@@ -1,6 +1,12 @@
 var leapYear = function(year) {
-  return false;
+  if (year % 4 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 };
+
+
 
 //user interface logic begins here
 $(document).ready(function() {
